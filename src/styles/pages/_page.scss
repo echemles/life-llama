@@ -1,0 +1,8 @@
+.page {
+	transition: opacity .3s ease;
+
+	&.page-transition-enter { opacity: 0;}
+	&.page-transition-enter-active { opacity: 1; }
+	&.page-transition-leave { opacity: 1; } 
+	&.page-transition-leave-active { opacity: 0; }
+}
